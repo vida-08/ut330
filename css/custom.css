@@ -48,11 +48,11 @@
   
 
   /* --- color --- */
-  --bg:          #090110;   /* page background */
-  --accent-bg:   #1142e189;   /* boxes, table headers, quote backgrounds */
-  --text:        hsl(240, 100%, 100%);   /* body text */
-  --text-light:  #9e9ebc;   /* captions and secondary text */
-  --border:      #8495cb;   /* rules and outlines */
+  --bg:          #effded;   /* page background */
+  --accent-bg:   #9cc8f989;   /* boxes, table headers, quote backgrounds */
+  --text:        hsl(231, 97%, 15%);   /* body text */
+  --text-light:  #4747b4;   /* captions and secondary text */
+  --border:      #53608a;   /* rules and outlines */
   --accent:      #1d95ba;   /* links */
   --accent-hover:#31b3ff;
   --accent-text: var(--bg); /* text sitting on top of accent */
