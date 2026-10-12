@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Product Team Sprint: Riverton 311 — Vida Fan</title>
+<meta name="description" content="Field notes from an interaction field study at the Fishbowl Computing Center.">
+
+<!-- Two dots at the start of a path means go up one folder.
+     This file is inside /entries/, and css/ is outside it. -->
+<link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
+<link rel="stylesheet" href="../css/custom.css">
+</head>
+
+<body>
+
+<header>
+  <h1>Vida Fan</h1>
+  <nav>
+    <a href="../index.html">Home</a>
+    <a href="index.html" aria-current="page">Log</a>
+    <a href="../project.html">Project</a>
+    <a href="../about.html">About</a>
+  </nav>
+</header>
+
+<main>
+
+<article>
+  <h2>Product Team Sprint: Riverton 311</h2>
+  <p><time datetime="2026-10-11">Fall 2026</time> · UT 330 · Group Project</p>
+
+  <h3>Project Overview</h3>
+  <p>In this project, I worked with four other students to design Riverton 311, a city service app that allows residents to report broken streetlights and check their repair status.</p>
+  <p>We used Figma and the Material 3 Design System to create a mobile task flow. Our design needed to help residents submit a report, 
+    receive a ticket number, check the repair status, and follow an existing report instead of submitting a duplicate.</p>
+  <p>We worked through three design phases. After each phase, we collected feedback from other teams and our instructor, then improved our screens.</p>
+  
+  <p><strong>Our main goals:</strong></p>
+  <ul>
+    <li>Help residents report a broken streetlight with a clear location and description</li>
+    <li>Confirm each submission with a ticket number</li>
+    <li>Show the report status and expected repair timing</li>
+    <li>Allow residents to follow existing reports to reduce duplicate submissions</li>
+    <li>Keep the interface consistent across screens</li>
+  </ul>
+
+  <figure>
+    <img src="entry-images/riverton_311_images/phase3_all.png" alt="Riverton 311 final design screens">
+    <figcaption>Our Riverton 311 design after three phases of iteration</figcaption>
+  </figure>
+
+  <h3>Planning & Team Organization</h3>
+  <p>At the beginning, we broke down the project brief, identified the important features, and decided what each screen should include. We also kept notes in our shared Figma file about the requirements, team roles, design decisions, and feedback.</p>
+  <p>In Phase 1, I was the <strong>Product Lead</strong>. I helped set the overall direction, organize what we needed to design, and divide the work among team members. We decided to create five screens instead of the suggested four so that each of our five members could take responsibility for one screen.</p>
+  <p>I was responsible for <strong>Screen 5: Report Status</strong>. Although we initially assigned Product, Research, Design, and Content Lead roles, these roles became less strict later. We found that working through problems together was more efficient than keeping every task within a fixed role.</p>
+  <figure>
+    <img src="entry-images/riverton_311_images/planning_notes.png" alt="Shared Figma planning notes">
+    <figcaption>Our shared notes on the project requirements, screen assignments, and feedback</figcaption>
+  </figure>
+
+  <h3>Design Process & Iterations</h3>
+  <p><strong>Phase 1: Initial Design</strong></p>
+  <p>In the first phase, each team member built an assigned screen using the Material 3 Design Kit. We focused on creating the main task flow before refining the details.</p>
+  <p>For my Report Status screen, I used a list-based layout to show reports and their current status. However, our first round of feedback showed that some screens were too wordy, the report form needed a map and location pin, and text sizes and layouts were not consistent enough.</p>
+  <figure>
+    <img src="entry-images/riverton_311_images/phase1_all.png" alt="Phase 1 initial screens">
+    <figcaption>Phase 1: Our first version of the five app screens</figcaption>
+  </figure>
+  <figure>
+    <img src="entry-images/riverton_311_images/phase1_status.png" alt="Initial report status screen">
+    <figcaption>My initial Report Status screen, before the timeline redesign</figcaption>
+  </figure>
+
+  <p><strong>Phase 2: Responding to Feedback</strong></p>
+  <p>After the first feedback round, we added a map and location pin to the report form and made the bottom navigation more consistent.</p>
+  <p>I redesigned the Report Status screen by replacing the wordy list-based layout with a <strong>vertical status timeline</strong>. This made the progress of a report easier to understand without reading through long descriptions. It also helped organize the information more clearly.</p>
+  <figure>
+    <img src="entry-images/riverton_311_images/phase2_status.png" alt="Redesigned report status screen with vertical timeline">
+    <figcaption>Phase 2: My redesigned Report Status screen with a vertical timeline</figcaption>
+  </figure>
+  <figure>
+    <img src="entry-images/riverton_311_images/phase2_all.png" alt="Phase 2 revised app screens">
+    <figcaption>Phase 2: Updated screens after the first round of feedback</figcaption>
+  </figure>
+
+  <p><strong>Phase 3: Refining the Experience</strong></p>
+  <p>After Phase 2, we received feedback that the report form needed clearer instructions. We revised the form to guide residents on what to enter and added an option to attach an image.</p>
+  <p>In this phase, I worked more closely with other team members rather than only improving my own screen. I helped refine the change orders, including notification settings and other additional features.</p>
+  <p>We also refined the interface together by adding icons, adjusting visual details, and making the navigation bar colors more consistent across screens. These changes helped the different screens feel like parts of the same app.</p>
+  <figure>
+    <img src="entry-images/riverton_311_images/phase3_all.png" alt="Phase 3 final app screens">
+    <figcaption>Phase 3: Final screens with more consistent navigation, icons, and visual details</figcaption>
+  </figure>
+
+  <h3>Responding to Change Orders</h3>
+  <p><strong>Notification Settings</strong></p>
+  <p>One change order described residents receiving too many notifications or missing updates when repair dates changed. We added a link that would open a Notification Settings pop-up, allowing residents to choose how they receive updates and whether they only want major updates.</p>
+  <p>I helped refine this feature with my teammates during Phase 3.</p>
+  <figure>
+    <img src="entry-images/riverton_311_images/notification_context.png" alt="Notification settings link within the report flow">
+    <figcaption>Notification Settings access within the report flow</figcaption>
+  </figure>
+  <figure>
+    <img src="entry-images/riverton_311_images/notification_settings.png" alt="Notification settings pop-up screen">
+    <figcaption>Notification Settings pop-up for choosing update preferences</figcaption>
+  </figure>
+
+  <p><strong>Save and Finish Later</strong></p>
+  <p>Another change order focused on residents who start a report while walking or driving and cannot safely complete it. Our team added a Save option to the report form and a Drafted Reports section in the navigation bar.</p>
+  <p>This helped us think about situations where users need to pause a task and return to it later.</p>
+  <figure>
+    <img src="entry-images/riverton_311_images/save_draft.png" alt="Save draft feature and Drafted Reports navigation">
+    <figcaption>Save and Finish Later: A Save option and access to drafted reports</figcaption>
+  </figure>
+
+  <h3>Final Feedback & Future Improvements</h3>
+  <p>After Phase 3, we received feedback that the app should make it clearer how residents follow existing reports. One suggestion was to show the current status of each followed report directly on the home page.</p>
+  <p>We also identified two areas for future improvement:</p>
+  <ul>
+    <li><strong>Personalized visual design:</strong> We followed Material 3 closely, but could develop a more distinct color scheme and visual identity for Riverton 311.</li>
+    <li><strong>Additional screens:</strong> Some functions, such as returning to saved reports, were suggested in the interface but did not have complete screens showing the full task flow.</li>
+  </ul>
+
+  <h3>Personal Reflection</h3>
+  <p>Through this project, I learned more about how interaction design develops through teamwork, feedback, and iteration.</p>
+  <p>As the Product Lead in Phase 1, I helped organize the team and set our initial direction. However, I also learned that fixed roles were not always the most efficient way for us to work. We made better progress when we discussed problems and improved screens together.</p>
+  <p>Redesigning the Report Status page was an important part of my experience. By changing a wordy layout into a visual timeline, I saw how the same information could become easier to understand through a different presentation.</p>
+  <p>The change orders also helped me understand that design requirements can change during a project. We needed to consider additional user situations, such as managing notifications and saving unfinished reports.</p>
+  <p>For our final presentation, I presented the change order section and helped plan how we divided the speaking roles among team members.</p>
+  <p>Overall, this sprint gave me more experience in collaborative interface design, working with a design system, and improving a product through multiple rounds of feedback.</p>
+
+  <p><a href="index.html">Back to the log</a></p>
+</article>
+
+
+</main>
+
+<footer>
+  <p>Vida Fan. UT330, Taubman College, Fall 2026.</p>
+</footer>
+
+</body>
+</html>

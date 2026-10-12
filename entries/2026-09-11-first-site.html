@@ -29,28 +29,27 @@
   <p><time datetime="2026-09-11">September 11, 2026</time> · Week 1</p>
 
   <p>
-    Second class assignment. Set up the repository, got it on GitHub Pages, and
-    picked type and color.
+    Set up the repository, got it on GitHub Pages, and picked type and color.
   </p>
 
   <h3>What I changed</h3>
 
   <p>
-    I kept the overall structure, changed the color and font in <code>custom.css</code>. The
-    body font is Garamond and the headings are Georgia Serif, which is more aligned with the style that I like. 
+    I kept the overall structure, but embedded more images and other structures from the component. 
+    I also changed the color and font in <code>custom.css</code>. 
+    The body font is Garamond and the headings are Georgia Serif, which is more aligned with the style that I like. 
   </p>
 
   <h3>What broke</h3>
 
   <p>
-    My stylesheet did nothing for about twenty minutes. I had the two
-    <code>&lt;link&gt;</code> tags in the wrong order, so simple.css was
-    loading second and overwriting all of my colors. Order matters.
+    My image for log entry cannot load, I tried compressing them, but they still don't show up in the log entry. I will try to fix it later.
   </p>
 
   <p>
-    The second thing: I put the <code>@import</code> for the fonts halfway down
-    the file. It has to be the first line.
+    The second thing: I put the <code>@import</code> for the fonts in the <code>custom.css</code> file, which caused the fonts to not load. 
+    I haven't figured out how to set font to specific text yet, so I have to comment it out to stop it from breaking the whole site.
+    I will try to fix it later. Luckily all the required elements are already on the website, mostly functioning normally.
   </p>
 
   <p><a href="index.html">Back to the log</a></p>
